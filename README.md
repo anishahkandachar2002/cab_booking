@@ -1,49 +1,49 @@
-Sure! Here's a ready-to-use `README.md` file for your GitHub repository, explaining how to set up and run your Flask-based Cab Booking System project, including database setup and dependencies:
+ 🚖 Cab Booking and Management System
 
----
+This is a Flask-based web application for managing a cab booking platform with role-based access for Admin, Driver, and User.
 
-````markdown
-# 🚖 Cab Booking and Management System
+🌐 Live Demo: [https://anisha007420.pythonanywhere.com/](https://anisha007420.pythonanywhere.com/)  
+🔑 Demo Login (Admin):  
+- Username: `admin`  
+- Password: `admin123`  
 
-This is a Flask-based web application for managing a cab booking platform with role-based access for **Admin**, **Driver**, and **User**.
 
----
 
-## ✅ Features
+ ✅ Features
 
-- 🧑‍💼 **Admin**: Manage drivers, users, bookings, and pricing  
-- 🚗 **Driver**: Register and await approval  
-- 🙋‍♂️ **User**: Register and login to the system  
+- 🧑‍💼 Admin: Manage drivers, users, bookings, and pricing  
+- 🚗 Driver: Register and await approval  
+- 🙋‍♂️ User: Register and login to the system  
 - 🔐 Role-based login and dashboards  
-- ✅ Flash messages and session handling
+- ✅ Flash messages and session handling  
 
----
 
-## ⚙️ Setup Instructions
 
-### 1. 🔃 Clone the Repository
+ ⚙️ Setup Instructions
+
+ 1. 🔃 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-````
+git clone https://github.com/your-username/cab_booking.git
+cd cab_booking
+```
 
-### 2. 🛠️ Create Virtual Environment (Optional but Recommended)
+ 2. 🛠️ Create Virtual Environment (Optional but Recommended)
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/bin/activate     On Windows: venv\Scripts\activate
 ```
 
-### 3. 📦 Install Dependencies
+ 3. 📦 Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. 🗃️ Setup MySQL Database
+ 4. 🗃️ Setup MySQL Database
 
-1. Open your MySQL client (e.g., phpMyAdmin, MySQL CLI, MySQL Workbench).
+1. Open your MySQL client (e.g., phpMyAdmin, MySQL CLI, MySQL Workbench).  
 2. Create a new database, for example:
 
 ```sql
@@ -59,7 +59,7 @@ USE cab_booking;
 
 > 💡 You can use tools like phpMyAdmin or MySQL CLI to upload and run the SQL dump.
 
-### 5. 🔧 Configure Database Connection
+ 5. 🔧 Configure Database Connection
 
 Edit the `db_config.py` file with your own MySQL credentials:
 
@@ -75,7 +75,7 @@ def get_connection():
     )
 ```
 
-### 6. 🚀 Run the App
+ 6. 🚀 Run the App
 
 ```bash
 python app.py
@@ -87,9 +87,9 @@ By default, the app will be available at:
 http://127.0.0.1:5000/
 ```
 
----
 
-## 📂 Project Structure
+
+ 📂 Project Structure
 
 ```
 .
@@ -110,28 +110,23 @@ http://127.0.0.1:5000/
 └── requirements.txt
 ```
 
----
 
-## 📌 Notes
 
-* Drivers must be approved by the Admin before login is allowed.
-* Sessions are used to track user roles and access.
+ 📌 Notes
 
----
+ Drivers must be approved by the Admin before login is allowed.
+ Sessions are used to track user roles and access.
 
-## 🧑‍💻 Author
 
-Developed by [Your Name](https://github.com/your-username)
 
----
+ 🙏 Acknowledgements
 
-## 🪪 License
+Thanks to Anand Sir for the opportunity to build this project and to PES University for the support and encouragement.
 
-This project is open-source and available under the [MIT License](LICENSE).
 
-```
 
----
+ 🧑‍💻 Author
 
-Let me know your GitHub username or repo name if you'd like it customized further.
-```
+Developed by [ANISHA H KANDACHAR](https://github.com/anishahkandachar2002)
+[Santosh Kumar PG](https://github.com/Santhoshkumar-123)
+[Shreyas K C]()
